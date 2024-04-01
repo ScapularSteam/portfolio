@@ -45,3 +45,11 @@
 .logo {
     justify-content: flex-start;
 }
+
+.article_grid{
+
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500 500 500 500;
+}
