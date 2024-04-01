@@ -2,11 +2,14 @@
     display: flexbox;
     padding: 12px;
     background-color: #ededed;
+    width: 100%;
+    flex-direction: row;
 
 }
 
 .projects_grid {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
 }
 
