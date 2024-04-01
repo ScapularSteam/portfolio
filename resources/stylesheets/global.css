@@ -10,9 +10,7 @@
 .projects_grid {
     display: grid;
     position: relative;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     grid-template-columns: repeat(2, 1fr);
 }
 
