@@ -27,7 +27,7 @@
 }
 .aimify_thumbnail_index:hover {
 
-    opacity: (0.6);
+    opacity: 0.5;
     transition: 1s;
     box-shadow:
     2.2px 2.5px 13.8px rgba(0, 0, 0, 0.082),
@@ -36,7 +36,6 @@
     20.6px 22.6px 111.7px rgba(0, 0, 0, 0.173),
     39.6px 43.3px 208.9px rgba(0, 0, 0, 0.208),
     96px 105px 500px rgba(0, 0, 0, 0.29);
-    opacity: 0.5;
 }
 
 .navbar_link {
