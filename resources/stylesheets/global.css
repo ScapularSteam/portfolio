@@ -14,8 +14,7 @@
     float: right;
     padding-top: 29.5px;
     padding-bottom: 29.5px;
-    padding-left: 10px;
-    padding-right: 10px;
+
     font-size: 18px;
 }
 
@@ -32,9 +31,23 @@
 
 .links {
 
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     position: center;
-    padding: 12px;
-    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    height: 10px;
+
+
+}
+
+.links:hover {
+    transition: 0.5s;
+    color: orangered;
 
 }
 
@@ -44,7 +57,7 @@
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: 550px 550px 550px;
 }
 
 .projects_column {
@@ -54,8 +67,11 @@
     padding: 15px;
     margin-left: 7%;
     margin-right: 7%;
+    margin-top: 7%;
+    margin-right: 7%;
     border: 2px solid black;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .projects_column img {
@@ -64,18 +80,21 @@
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 15px;
+    margin-top: 0.5%;
     
 }
 
 
 .introduction {
     padding: 15px;
+    padding-bottom: 0px;
 }
 
 
 /* https://shadows.brumm.af/ */
 
-.thumbnail:hover {
+.projects_column:hover {
 
     opacity: 0.8;
     transition: 1s;
@@ -86,7 +105,10 @@
     20.6px 22.6px 111.7px rgba(0, 0, 0, 0.173),
     39.6px 43.3px 208.9px rgba(0, 0, 0, 0.208),
     96px 105px 500px rgba(0, 0, 0, 0.29);
+
 }
+
+
 
 .navbar_link {
     justify-content: flex-end;
@@ -126,4 +148,69 @@
     20.6px 22.6px 111.7px rgba(0, 0, 0, 0.173),
     39.6px 43.3px 208.9px rgba(0, 0, 0, 0.208),
     96px 105px 500px rgba(0, 0, 0, 0.29);
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+}
+
+
+p a article footer {
+
+    font-family: "Rubik", sans-serif;
+}
+
+
+p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+a {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+
+
+.my_projects {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 100px;
+
+
+}
+
+.intro_paragraph{
+    width: 40%;
+    border: 2px solid black;
+    overflow-wrap: normal;
+    padding: 15px;
+}
+
+footer {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    border-top: 2px solid black;
+    padding-top: 8px;
+    padding-bottom: 6px;
 }
