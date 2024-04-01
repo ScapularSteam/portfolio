@@ -46,10 +46,18 @@
     justify-content: flex-start;
 }
 
-.article_grid{
+.article_grid {
 
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 500 500 500 500;
+}
+
+.article_story {
+
+    display: flexbox;
+    text-align: left;
+    align-items: center;
+    padding: 15px;
 }
