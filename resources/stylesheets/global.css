@@ -25,7 +25,11 @@
 .introduction {
     padding: 15px;
 }
-.aimify_thumbnail_index:hover {
+
+
+/* https://shadows.brumm.af/ */
+
+.thumbnail:hover {
 
     opacity: 0.5;
     transition: 1s;
@@ -60,4 +64,20 @@
     text-align: left;
     align-items: center;
     padding: 15px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.article_story:hover {
+
+    transition: 1s;
+    filter: blur(2px);
+    box-shadow:
+    2.2px 2.5px 13.8px rgba(0, 0, 0, 0.082),
+    5.7px 6.2px 33.3px rgba(0, 0, 0, 0.117),
+    11.2px 12.2px 62.6px rgba(0, 0, 0, 0.145),
+    20.6px 22.6px 111.7px rgba(0, 0, 0, 0.173),
+    39.6px 43.3px 208.9px rgba(0, 0, 0, 0.208),
+    96px 105px 500px rgba(0, 0, 0, 0.29);
 }
