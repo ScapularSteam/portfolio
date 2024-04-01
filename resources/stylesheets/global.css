@@ -22,7 +22,9 @@
     padding: 15px;
 }
 
-
+.introduction {
+    padding: 15px;
+}
 .aimify_thumbnail_index:hover {
 
     filter: drop-shadow(16px 16px 16px lightblue);
