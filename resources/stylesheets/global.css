@@ -27,7 +27,7 @@
 }
 .aimify_thumbnail_index:hover {
 
-    filter: drop-shadow(16px 16px 16px lightblue);
+    filter: drop-shadow(22px 22px 22px blue);
     opacity: (0.6);
     transition: 1s;
     
