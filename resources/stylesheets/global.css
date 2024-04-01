@@ -1,9 +1,10 @@
 .navbar {
-    display: flexbox;
+    display: flex;
     padding: 12px;
     background-color: #ededed;
     width: 100%;
     flex-direction: row;
+    display: inline;
 
 }
 
