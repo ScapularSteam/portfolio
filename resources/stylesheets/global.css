@@ -10,6 +10,8 @@
 
 .projects_column {
     display: flexbox;
+    flex-direction: column;
+    width: 35%;
 }
 
 
