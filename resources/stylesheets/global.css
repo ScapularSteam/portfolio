@@ -11,6 +11,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 .projects_column {
@@ -18,6 +19,7 @@
     flex-direction: column;
     width: 35%;
     text-align: left;
+    align-items: center;
 }
 
 
