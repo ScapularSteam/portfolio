@@ -3,8 +3,14 @@
 
 }
 
+.projects_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
-
+.projects_column {
+    display: flexbox;
+}
 
 
 .aimify_thumbnail_index:hover {
